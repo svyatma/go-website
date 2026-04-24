@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Saira';
-  src: url('/font/Saira-Regular.ttf') format('woff2');
+  src: url('font/Saira-Regular.ttf') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'RussischSans';
-  src: url('/font/RussischSans-Light.ttf') format('woff2');
+  src: url('font/RussischSans-Light.ttf') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'RussischSans';
-  src: url('/font/RussischSans-Regular.ttf') format('woff2');
+  src: url('font/RussischSans-Regular.ttf') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: 'RussischSans';
-  src: url('/font/RussischSans-Medium.ttf') format('woff2');
+  src: url('font/RussischSans-Medium.ttf') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'RussischSans';
-  src: url('/font/RussischSans-SemiBold.ttf') format('woff2');
+  src: url('font/RussischSans-SemiBold.ttf') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'RussischSans';
-  src: url('/font/RussischSans-Bold.woff2') format('woff2');
+  src: url('font/RussischSans-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -50,7 +50,7 @@
 
 @font-face {
   font-family: 'RussischSans';
-  src: url('/font/RussischSans-ExtraBold.ttf') format('woff2');
+  src: url('font/RussischSans-ExtraBold.ttf') format('woff2');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -58,7 +58,7 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url('/fonts/Mulish-Light.ttf') format('woff2');
+  src: url('fonts/Mulish-Light.ttf') format('woff2');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -66,7 +66,7 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url('/fonts/Mulish-Regular.ttf') format('woff2');
+  src: url('fonts/Mulish-Regular.ttf') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -74,7 +74,7 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url('/fonts/Mulish-Medium.ttf') format('woff2');
+  src: url('fonts/Mulish-Medium.ttf') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -82,7 +82,7 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url('/fonts/Mulish-SemiBold.ttf') format('woff2');
+  src: url('fonts/Mulish-SemiBold.ttf') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -90,7 +90,7 @@
 
 @font-face {
   font-family: 'Mulish';
-  src: url('/fonts/Mulish-Bold.ttf') format('woff2');
+  src: url('fonts/Mulish-Bold.ttf') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -1820,7 +1820,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/img/gauri.png);
+	background-image: url(img/gauri.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: center; */
@@ -1831,7 +1831,7 @@ body {
 	z-index: -1;
 
 	@media (max-width: 767px) {
-		background-image: url(/img/gauri-mobile.png);
+		background-image: url(img/gauri-mobile.png);
 	}
 }
 
@@ -1841,7 +1841,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/img/sotik-s.png);
+	background-image: url(img/sotik-s.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: center; */
@@ -1852,7 +1852,7 @@ body {
 	z-index: -1;
 
 	@media (max-width: 767px) {
-		background-image: url(/img/sotik-s-mobile.png);
+		background-image: url(img/sotik-s-mobile.png);
 	}
 }
 
@@ -1862,7 +1862,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/img/task-timer.png);
+	background-image: url(img/task-timer.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: center; */
@@ -1873,7 +1873,7 @@ body {
 	z-index: -1;
 
 	@media (max-width: 767px) {
-		background-image: url(/img/task-timer-mobile.png);
+		background-image: url(img/task-timer-mobile.png);
 	}
 }
 
@@ -1883,7 +1883,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/img/obsidian-learning.png);
+	background-image: url(img/obsidian-learning.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: center; */
@@ -1894,7 +1894,7 @@ body {
 	z-index: -1;
 
 	@media (max-width: 767px) {
-		background-image: url(/img/obsidian-learning-mobile.png);
+		background-image: url(img/obsidian-learning-mobile.png);
 	}
 }
 
@@ -1904,7 +1904,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(/img/stilhouse.png);
+	background-image: url(img/stilhouse.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	/* background-position: center; */
@@ -1915,7 +1915,7 @@ body {
 	z-index: -1;
 
 	@media (max-width: 767px) {
-		background-image: url(/img/stilhouse-mobile.png);
+		background-image: url(img/stilhouse-mobile.png);
 	}
 }
 
