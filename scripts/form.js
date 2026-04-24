@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded', function() {
     `${selectValue + ','}\n` +
     `${contact ? contact : '...'}`;
     
-    const botToken = '8520508120:AAGO_hHBi0uy-4onxWvWoGylK4oOLOlBsXI';
-    const chatId = '284184324';
+    const botToken = '';
+    const chatId = '';
     
     fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
       method: 'POST',
