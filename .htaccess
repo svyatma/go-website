@@ -1,0 +1,23 @@
+# Редирект с http на https создан автоматически при заказе бесплатного ssl-сертификата
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule .* https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+# Конец редиректа
+
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+
+# ----- РЕДИРЕКТ со старого URL (.html) на новый (без .html) -----
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L,NE]
+
+# ----- РЕДИРЕКТ если кто-то зашел на .html с параметрами -----
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html\?([^\s]+) [NC]
+RewriteRule ^ /%1?%2 [R=301,L,NE]
+
+# ----- ВНУТРЕННЯЯ ПОДСТАНОВКА .html для чистых URL -----
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
